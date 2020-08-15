@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salão Capixaba</title>
+
+    <link rel="stylesheet" type="text/css" href="pagescss/Home.css">
+    <link rel="icon" href="../images/Small_logo.png">
+    <!-- Fontes -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script type="text/javascript" src="../pages/js/functions.js"></script>
+</head>
+
+<body>
+
+    <section id="Home">
+        <section class="Banner" id="sec">
+            <header>
+                <a href="#" class="logo"> Salão Capixaba </a>
+                <div id="toggle" onclick="toggle()"></div>
+            </header>
+            <img id="logo" src="../images/Logo2.png" alt="Salão Capixaba">
+
+            <div id="Button-Agendar">
+                <a href="/">
+                    Agendar
+                </a>
+            </div>
+
+            <a id="button_down" href="#NossoTrabalho">
+                <img src="../images/icons/down-menu.svg" alt="Abaixar">
+            </a>
+
+        </section>
+
+        <div id="navigation">
+            <ul>
+                <li><a href="#" onclick="toggle()"> Agendamento </a></li>
+                <li><a href="#NossoTrabalho" onclick="toggle()"> Nosso Trabalho </a></li>
+                <li><a href="#NossaEquipe" onclick="toggle()"> Nossa Equipe </a></li>
+                <li><a href="#Sobre" onclick="toggle()"> Sobre </a></li>
+                <li><a href="#Map" onclick="toggle()"> Localização </a></li>
+                <li><a href="#Contato" onclick="toggle()"> Contato </a></li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section id="NossoTrabalho">
+        <div class="p_title">
+            <h2>Nosso Trabalho</h2>
+            <div class="line"></div>
+        </div>
+        <div class=cards>
+            <a href="#"><img class="card_image" src="../images/img1.jpg" alt="corte"></a>
+            <a href="#"><img class="card_image" src="../images/img2.jfif" alt="corte"></a>
+            <a href="#"><img class="card_image" src="../images/img3.jpg" alt="corte"></a>
+            <a href="#"><img class="card_image" src="../images/img4.jpg" alt="corte"></a>
+            <a href="#"><img class="card_image" src="../images/img5.jfif" alt="corte"></a>
+            <a href="#"><img class="card_image" src="../images/img6.jpg" alt="corte"></a>
+            <a href="#"><img class="card_image" src="../images/img8.jfif" alt="corte"></a>
+            <a href="#"><img class="card_image" src="../images/img9.jfif" alt="corte"></a>
+        </div>
+        <a class="arrow_down" href="#NossaEquipe">
+            <img src="../images/icons/down.svg" alt="Abaixar">
+        </a>
+    </section>
+
+    <section id="NossaEquipe">
+        <div class="p_title">
+            <h2>Nossa Equipe</h2>
+            <div class="line"></div>
+        </div>
+
+        <div class="p_cards">
+            <div class="pp_card">
+                <a href="#"><img class="p_photo" src="../images/p1.jpg" alt="Professional 1"></a>
+                <h3>Arthur</h3>
+                <p>Cabeleireiro profissional com foco em cortes masculinos, 15 anos de trabalho.</p>
+            </div>
+            <div class="pp_card">
+                <a href="#"><img class="p_photo" src="../images/p2.jpg" alt="Professional 2"></a>
+                <h3>Amanda</h3>
+                <p>Cabeleireiro profissional com foco em cortes femininos, 8 anos de trabalho.</p>
+            </div>
+            <div class="pp_card">
+                <a href="#"><img class="p_photo" src="../images/p3.jpg" alt="Professional 3"></a>
+                <h3>Gean</h3>
+                <p>Cabeleireiro profissional Unisex, 10 anos de trabalho.</p>
+            </div>
+        </div>
+        <a class="arrow_down" href="#Sobre">
+            <img src="../images/icons/down.svg" alt="Abaixar">
+        </a>
+    </section>
+
+    <section id="Sobre">
+        <div class="p_title">
+            <h2>Sobre</h2>
+            <div class="line"></div>
+        </div>
+        <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Nosso salão foi fundado em <span>1964</span>, e passado de pai para filho,
+            muitos anos de tradição, profissionalismo e satisfação dos clientes. Contamos com uma equipe de três
+            cabeleireiro, uma esteticista, uma manicure."</p>
+        <a class="arrow_down" href="#Map">
+            <img src="../images/icons/down.svg" alt="Abaixar">
+        </a>
+    </section>
+
+    <section id="Map">
+        <div class="p_title">
+            <h2>Localização</h2>
+            <div class="line"></div>
+        </div>
+        <img src="../images/icons/mappin.svg" alt="Map">
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d940.099878605137!2d-42.62725877079815!3d-19.52445423518707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa55421aa522389%3A0x63ce09d92088cf3d!2sR.%20Duque%20de%20Caxias%2C%20331%20-%20Centro%2C%20Cel.%20Fabriciano%20-%20MG%2C%2035170-009!5e0!3m2!1spt-BR!2sbr!4v1597527354956!5m2!1spt-BR!2sbr"
+                width="280" height="280" frameborder="1" style="border:7;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+
+        </div>
+        <p>Rua Duque de Caixias, 331 - Centro, Cel.Fabriciano - MG, 35170-009</p>
+    </section>
+
+    <footer id="Contato">
+        <div class="cc">
+            <img class="icons" src="../images/icons/ligar.svg" alt="Telefone">
+            <p>31 3842-1174</p>
+        </div>
+        <div class="cc">
+            <a href="https://www.instagram.com/cesarcapixaba67/" target="_blank"><img class="icons" src="../images/icons/instagram.svg" alt="Instagram"></a>
+            <p>@instagramid</p>
+        </div>
+    </footer>
+</body>
+
+</html>
