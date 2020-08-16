@@ -53,7 +53,7 @@ header #toggle:after {
     position: relative;
     width: 100%;
     min-height: 100vh;
-    background-image: url(../../bg2.jpg);
+    background-image: url(./images/bg2.jpg);
     background-size: cover;
     background-blend-mode: multiply;
     background-position-x: right;
